@@ -603,6 +603,9 @@ button {
 .event-content {
   display: flex;
 }
+.event-left {
+  width: 40%;
+}
 .event-left h2 {
   color: #10375c;
   font-family: Sora;
@@ -650,6 +653,7 @@ button {
   transition: 0.5s;
   overflow: hidden;
   width: 270px;
+  height: 375px;
 }
 .event-text .event-img-1 {
   object-fit: cover;
@@ -683,6 +687,7 @@ button {
   margin-top: 10px;
 }
 .text a {
+  display: inline-block;
   color: #10375c;
   font-family: Sora;
   font-size: 1.4rem;
